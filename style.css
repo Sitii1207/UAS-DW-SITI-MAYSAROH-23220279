@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.Header {
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    margin: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li a:hover{
+font-style: italic;
+}
+
+.banner {
+    background-color: royalblue;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 180px;
+    border: solid 6px white;
+    margin-top: 100px;
+}
+
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover{
+    background-color: skyblue;
+    border:  solid 1px white;
+    cursor: pointer;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: aliceblue;
+    font-size: 50px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Siti Maisaroh';
+    }
+    100% {
+        content: 'Terimakasih Sudah Singgah!';
+    }
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+    align-content: center;
+    padding-top: 70px;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    margin: 30px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.bungkus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.bungkus h3,p{
+    margin: 10px 0px 13px;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.Softskill{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 60px;
+}
+
+.Kontak {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.Kontak img{
+    margin-bottom: 20px;
+    width:100px;
+    margin-top: 40px;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 3px;
+    margin: 50px auto 0;
+}
+
+.footer p{
+    text-align: center;
+    padding: 10px;
+}
